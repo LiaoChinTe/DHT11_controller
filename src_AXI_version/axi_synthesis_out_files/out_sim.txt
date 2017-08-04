@@ -1,0 +1,204 @@
+VSIM 1> run -all
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ns  Iteration: 0  Instance: /dht11_axi_sim/dut/check
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /dht11_axi_sim/dut/check
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /dht11_axi_sim/dut/check
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /dht11_axi_sim/dut/check
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /dht11_axi_sim/dut/check
+# transaction start at 2020801750 ns: data=0001110111010111001000110101101101110010
+# transaction ends at 2025074659 ns
+# transaction start at 3020801750 ns: data=1100011110001011001100010101101111011110, inject protocol error at phase 0
+# transaction ends at 3026079495 ns
+# transaction start at 4020801750 ns: data=1101111111000101100110110010000101100000, inject protocol error at phase 1
+# transaction ends at 4025889034 ns
+# transaction start at 5020801750 ns: data=1110010010000111111001001011100100001000, inject protocol error at phase 2
+# transaction ends at 5025814614 ns
+# transaction start at 6020801750 ns: data=1000101100101010101100100101001110111010, inject protocol error at phase 3
+# transaction ends at 6025924735 ns
+# transaction start at 7020801750 ns: data=1101110010100100100010111000100010010011, inject protocol error at phase 4
+# transaction ends at 7025816290 ns
+# transaction start at 8020801750 ns: data=0101000100011110101000000000001000010001, inject protocol error at phase 5
+# transaction ends at 8025585294 ns
+# transaction start at 9020801750 ns: data=1101110110111101100110000100001001110100, inject protocol error at phase 6
+# transaction ends at 9025945956 ns
+# transaction start at 10020801750 ns: data=0001111100001000111111110101010101111011, inject protocol error at phase 7
+# transaction ends at 10026107253 ns
+# transaction start at 11020801750 ns: data=0100110100000011100111000111001001011110, inject protocol error at phase 8
+# transaction ends at 11025910472 ns
+# transaction start at 12020801750 ns: data=0000011100111001011111101001011101010101, inject protocol error at phase 9
+# transaction ends at 12026014591 ns
+# transaction start at 13020801750 ns: data=0111100001101011001110101111100000010101, inject protocol error at phase 10
+# transaction ends at 13025953990 ns
+# transaction start at 14020801750 ns: data=1111011111011011010001111100111011100111, inject protocol error at phase 11
+# transaction ends at 14026280754 ns
+# transaction start at 15020801750 ns: data=0110001000000110111010101010010011110110, inject protocol error at phase 12
+# transaction ends at 15025920668 ns
+# transaction start at 16020801750 ns: data=0101011011010011001011100010100110000000, inject protocol error at phase 13
+# transaction ends at 16025801926 ns
+# transaction start at 17020801750 ns: data=1101110001011101100010111110001010100110, inject protocol error at phase 14
+# transaction ends at 17025989602 ns
+# transaction start at 18020801750 ns: data=1110001001001110011100001001000100110001, inject protocol error at phase 15
+# transaction ends at 18025803116 ns
+# transaction start at 19020801750 ns: data=0111101000101010010101111111100111110100, inject protocol error at phase 16
+# transaction ends at 19026090252 ns
+# transaction start at 20020801750 ns: data=0111001000111001100000111011010011100010, inject protocol error at phase 17
+# transaction ends at 20025885455 ns
+# transaction start at 21020801750 ns: data=0111100001000101010101010110111010000000, inject protocol error at phase 18
+# transaction ends at 21025818053 ns
+# transaction start at 22020801750 ns: data=1001111101111001110111001111010111101001, inject protocol error at phase 19
+# transaction ends at 22026222445 ns
+# transaction start at 23020801750 ns: data=0000011011010010101000000000010001111100, inject protocol error at phase 20
+# transaction ends at 23025650406 ns
+# transaction start at 24020801750 ns: data=0011010001101000111111011111011010001111, inject protocol error at phase 21
+# transaction ends at 24026106390 ns
+# transaction start at 25020801750 ns: data=1110101110101001001000100100100111111111, inject protocol error at phase 22
+# transaction ends at 25026091460 ns
+# transaction start at 26020801750 ns: data=1001110011000001010000100010101011001001, inject protocol error at phase 23
+# transaction ends at 26025753078 ns
+# transaction start at 27020801750 ns: data=1010100100000011111110110011111111100110, inject protocol error at phase 24
+# transaction ends at 27026131342 ns
+# transaction start at 28020801750 ns: data=0010111111111101110000010110011101010100, inject protocol error at phase 25
+# transaction ends at 28026063404 ns
+# transaction start at 29020801750 ns: data=1001000010101011001101110111000011100010, inject protocol error at phase 26
+# transaction ends at 29025906182 ns
+# transaction start at 30020801750 ns: data=1011011100010001000100101110010010111110, inject protocol error at phase 27
+# transaction ends at 30025932501 ns
+# transaction start at 31020801750 ns: data=1101110000010100110011001011011001110010, inject protocol error at phase 28
+# transaction ends at 31025958234 ns
+# transaction start at 32020801750 ns: data=1111100001110101101010100000000000010111, inject protocol error at phase 29
+# transaction ends at 32025844977 ns
+# transaction start at 33020801750 ns: data=1110101100100001111101000011001000110010, inject protocol error at phase 30
+# transaction ends at 33025909267 ns
+# transaction start at 34020801750 ns: data=1100001111010110110101110000100101111001, inject protocol error at phase 31
+# transaction ends at 34026024628 ns
+# transaction start at 35020801750 ns: data=0011001110001101110001101111001001111000, inject protocol error at phase 32
+# transaction ends at 35026007954 ns
+# transaction start at 36020801750 ns: data=0010101000010011111110001000111011000011, inject protocol error at phase 33
+# transaction ends at 36025890404 ns
+# transaction start at 37020801750 ns: data=0011111011111111010001011111110001111110, inject protocol error at phase 34
+# transaction ends at 37026249414 ns
+# transaction start at 38020801750 ns: data=0110010101101010000000101010110101111110, inject protocol error at phase 35
+# transaction ends at 38025922178 ns
+# transaction start at 39020801750 ns: data=0111101111111000100001100101001101001100, inject protocol error at phase 36
+# transaction ends at 39025959660 ns
+# transaction start at 40020801750 ns: data=0101000100011100110010011100010111111011, inject protocol error at phase 37
+# transaction ends at 40025965512 ns
+# transaction start at 41020801750 ns: data=0101110110110011111010000100001000111010, inject protocol error at phase 38
+# transaction ends at 41025915795 ns
+# transaction start at 42020801750 ns: data=0100100011110000111101000001001100111111, inject protocol error at phase 39
+# transaction ends at 42025939673 ns
+# transaction start at 43020801750 ns: data=0011100011101101100101000000001010111011, inject protocol error at phase 40
+# transaction ends at 43025905540 ns
+# transaction start at 44020801750 ns: data=0011110101010011110100011111111001011111, inject protocol error at phase 41
+# transaction ends at 44026200561 ns
+# transaction start at 45020801750 ns: data=1100100101111100110011100001110000101111, inject protocol error at phase 42
+# transaction ends at 45026038801 ns
+# transaction start at 46020801750 ns: data=0101001011010100000111001001010111010111, inject protocol error at phase 43
+# transaction ends at 46025930724 ns
+# transaction start at 47020801750 ns: data=0110100111011100110111011100101011101100, inject protocol error at phase 44
+# transaction ends at 47026092038 ns
+# transaction start at 48020801750 ns: data=1111000000101100100110100101000100000111, inject protocol error at phase 45
+# transaction ends at 48025790264 ns
+# transaction start at 49020801750 ns: data=1001000101101100010110010010010101111011, inject protocol error at phase 46
+# transaction ends at 49025959240 ns
+# transaction start at 50020801750 ns: data=0101011111001001110110110100000100111100, inject protocol error at phase 47
+# transaction ends at 50025976070 ns
+# transaction start at 51020801750 ns: data=1011101100010101100010110111100111010100, inject protocol error at phase 48
+# transaction ends at 51026001972 ns
+# transaction start at 52020801750 ns: data=0000110010100100000110001000011101001111, inject protocol error at phase 49
+# transaction ends at 52025764208 ns
+# transaction start at 53020801750 ns: data=0011000011101011111011110000100000010010, inject protocol error at phase 50
+# transaction ends at 53025824643 ns
+# transaction start at 54020801750 ns: data=1100110110111101001000101000011100110011, inject protocol error at phase 51
+# transaction ends at 54025970363 ns
+# transaction start at 55020801750 ns: data=0100111100111101001100011011011001110011, inject protocol error at phase 52
+# transaction ends at 55026050224 ns
+# transaction start at 56020801750 ns: data=1000010010110100001100100100101010110100, inject protocol error at phase 53
+# transaction ends at 56025750426 ns
+# transaction start at 57020801750 ns: data=0010000100001001110010100111110101110001, inject protocol error at phase 54
+# transaction ends at 57025827542 ns
+# transaction start at 58020801750 ns: data=0101011110011100010100000100011110001010, inject protocol error at phase 55
+# transaction ends at 58025834185 ns
+# transaction start at 59020801750 ns: data=1001110001101010010111101011001000010110, inject protocol error at phase 56
+# transaction ends at 59025917784 ns
+# transaction start at 60020801750 ns: data=0010110111110001010001101010001100000111, inject protocol error at phase 57
+# transaction ends at 60025882678 ns
+# transaction start at 61020801750 ns: data=1110000111011111100111011000000111011110, inject protocol error at phase 58
+# transaction ends at 61026123062 ns
+# transaction start at 62020801750 ns: data=0010011000010010000111101011101000010000, inject protocol error at phase 59
+# transaction ends at 62025715604 ns
+# transaction start at 63020801750 ns: data=1110100101000111111110111110111100011010, inject protocol error at phase 60
+# transaction ends at 63026164768 ns
+# transaction start at 64020801750 ns: data=0011110000010100001001011100000000110101, inject protocol error at phase 61
+# transaction ends at 64025710230 ns
+# transaction start at 65020801750 ns: data=1010000111000010110010000000001000101101, inject protocol error at phase 62
+# transaction ends at 65025696201 ns
+# transaction start at 66020801750 ns: data=0100100010010110111111101000101001100110, inject protocol error at phase 63
+# transaction ends at 66025924171 ns
+# transaction start at 67020801750 ns: data=1001110101001011100001110000101101111010, inject protocol error at phase 64
+# transaction ends at 67025955141 ns
+# transaction start at 68020801750 ns: data=1100111010000101010000111010000000110110, inject protocol error at phase 65
+# transaction ends at 68025795683 ns
+# transaction start at 69020801750 ns: data=0100110000010001000000111011111000011110, inject protocol error at phase 66
+# transaction ends at 69025820117 ns
+# transaction start at 70020801750 ns: data=1011111101010001101011010010010111100010, inject protocol error at phase 67
+# transaction ends at 70026028719 ns
+# transaction start at 71020801750 ns: data=1101101100110100011101111011110101000011, inject protocol error at phase 68
+# transaction ends at 71026121179 ns
+# transaction start at 72020801750 ns: data=1100101101101100111001100010101001000111, inject protocol error at phase 69
+# transaction ends at 72025971422 ns
+# transaction start at 73020801750 ns: data=0001010111110101110001110000010011010101, inject protocol error at phase 70
+# transaction ends at 73025909723 ns
+# transaction start at 74020801750 ns: data=1110000111101100110011110001101010110110, inject protocol error at phase 71
+# transaction ends at 74026053858 ns
+# transaction start at 75020801750 ns: data=1101011010000101010101001111100110101000, inject protocol error at phase 72
+# transaction ends at 75025906168 ns
+# transaction start at 76020801750 ns: data=0010110100110101110011110110000110010010, inject protocol error at phase 73
+# transaction ends at 76025917429 ns
+# transaction start at 77020801750 ns: data=0000001111000111101010111000101011111111, inject protocol error at phase 74
+# transaction ends at 77026040123 ns
+# transaction start at 78020801750 ns: data=1100010001101101000110011011001011111100, inject protocol error at phase 75
+# transaction ends at 78025975865 ns
+# transaction start at 79020801750 ns: data=0101011010101111000110101101101011111001, inject protocol error at phase 76
+# transaction ends at 79026087765 ns
+# transaction start at 80020801750 ns: data=1100101001111001001111010101110111011101, inject protocol error at phase 77
+# transaction ends at 80026140151 ns
+# transaction start at 81020801750 ns: data=0101000110000010100010110101110010111010, inject protocol error at phase 78
+# transaction ends at 81025865187 ns
+# transaction start at 82020801750 ns: data=0100110111100111111011010111101010011011, inject protocol error at phase 79
+# transaction ends at 82026194910 ns
+# transaction start at 83020801750 ns: data=1001011011101110100111010001100100111010, inject protocol error at phase 80
+# transaction ends at 83025988617 ns
+# transaction start at 84020801750 ns: data=0011011111111110011111000101111100010000, inject protocol error at phase 81
+# transaction ends at 84026113271 ns
+# transaction start at 85020801750 ns: data=0100111011001101110000100111001001001111, inject protocol error at phase 82
+# transaction ends at 85025945406 ns
+# transaction start at 86020801750 ns: data=0110101001000101011101111100010011101010, inject protocol error at phase 83
+# transaction ends at 86025972461 ns
+# transaction start at 87020801750 ns: data=0100011011011001100101000110010100011001, inject checksum error at bit 0
+# transaction ends at 87024903415 ns
+# transaction start at 88020801750 ns: data=1100000011000100011100101010001010011010, inject checksum error at bit 1
+# transaction ends at 88024802416 ns
+# transaction start at 89020801750 ns: data=0110011011010010001011001111001001010010, inject checksum error at bit 2
+# transaction ends at 89024932725 ns
+# transaction start at 90020801750 ns: data=1011001001101111001010110011010010001000, inject checksum error at bit 3
+# transaction ends at 90024943420 ns
+# transaction start at 91020801750 ns: data=1001010100001001110101001000110011101110, inject checksum error at bit 4
+# transaction ends at 91024938367 ns
+# transaction start at 92020801750 ns: data=1100110111001001100000100010101101100011, inject checksum error at bit 5
+# transaction ends at 92024924271 ns
+# transaction start at 93020801750 ns: data=0000100000001110000101011101010010111111, inject checksum error at bit 6
+# transaction ends at 93024903313 ns
+# transaction start at 94020801750 ns: data=1000001110101110001110010100111000111000, inject checksum error at bit 7
+# transaction ends at 94024942263 ns
+# transaction start at 95020801750 ns: data=0111000001101010001111110110100010000010, inject checksum error at bit 8
+# transaction ends at 95024900174 ns
+# transaction start at 96020801750 ns: data=1000001100101110010111100000101000010111, inject checksum error at bit 9
+# transaction ends at 96024898198 ns
+# transaction start at 97020801750 ns: data=0010000011000010101001100111000011111100, inject checksum error at bit 10
+# transaction ends at 97024854586 ns
+

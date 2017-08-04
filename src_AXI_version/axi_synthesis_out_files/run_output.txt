@@ -1,0 +1,40 @@
+Welcome to SAB4Z (c) Telecom ParisTech
+sab4z login: root
+Sab4z> devmem 0x40000000 32
+0x27001900
+Sab4z> devmem 0x40000004 32
+0x00000000
+Sab4z> devmem 0x40000008 32
+Unhandled fault: external abort on non-linefetch (0x018) at 0xb6f9c008
+pgd = dd934000
+[b6f9c008] *pgd=1e5dc831, *pte=40000783, *ppte=40000e33
+Bus error
+Sab4z> devmem 0x40000000 32 0
+Unhandled fault: external abort on non-linefetch (0x1818) at 0xb6f11000
+pgd = dda60000
+[b6f11000] *pgd=1e67e831, *pte=40000743, *ppte=40000c33
+Bus error
+Sab4z> devmem 0x40000004 32 0
+Unhandled fault: external abort on non-linefetch (0x1818) at 0xb6fc9004
+pgd = dd934000
+[b6fc9004] *pgd=1e4c1831, *pte=40000743, *ppte=40000c33
+Bus error
+Sab4z> devmem 0x40000008 32 0
+Unhandled fault: external abort on non-linefetch (0x818) at 0xb6fad008
+pgd = dda60000
+[b6fad008] *pgd=1e4d6831, *pte=40000743, *ppte=40000c33
+Bus error
+Sab4z> 
+
+-- after breathing on the sensor
+Sab4z> devmem 0x40000000 32
+0x27001800
+Sab4z> devmem 0x40000000 32
+0x4C002200
+Sab4z> devmem 0x40000000 32
+0x4E002100
+Sab4z> devmem 0x40000000 32
+0x59001C00
+Sab4z> devmem 0x40000000 32
+0x40001800
+
